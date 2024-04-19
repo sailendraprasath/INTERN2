@@ -1,11 +1,11 @@
 import "./App.css";
-import Sample from "./components/Sample";
+import MainP from "./pages/MainP";
 
 function App() {
   return (
     <>
       <div>
-        <Sample />
+        <MainP />
       </div>
     </>
   );
