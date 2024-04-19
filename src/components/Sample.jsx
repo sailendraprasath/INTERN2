@@ -14,7 +14,7 @@ const Sample = () => {
   ];
   return (
     <>
-      <div className="lg:max-w-[2560px] max-sm:max-w-[300px]  mx-auto flex justify-between items-center  table-fixed bg-myfont3 cursor-default select-none">
+      <div className=" max-sm:max-w-[300px]  mx-auto flex justify-between items-center  table-fixed bg-myfont3 cursor-default select-none">
         <div className="flex items-center  max-sm:w-full lg:w-full ">
           <div className="flex flex-row  items-center  px-8 lg:pt-5">
             <div>
