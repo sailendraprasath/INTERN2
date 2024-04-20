@@ -9,16 +9,16 @@ const Sample1 = () => {
   return (
     <>
       <div className="grid grid-cols-2 max-sm:max-w-[300px] max-sm:mx-auto">
-        <div className="select-none lg:ml-[150px] lg:mt-[150px]    xl:mt-[200px] xl:ml-[200px] max-sm:mt-[15px] max-sm:ml-[10px]  2xl:mt-[600px] md:ml-[80px] md:mt-[160px] mx-auto">
-          <h1 className="   text-gray-600/50 xl:text-5xl max-sm:text-4xl lg:text-5xl 2xl:text-9xl md:text-4xl">
+        <div className="select-none lg:ml-[150px] lg:mt-[150px]    xl:mt-[200px] xl:ml-[200px] max-sm:mt-[15px] max-sm:ml-[10px]  2xl:mt-[200px] md:ml-[80px] md:mt-[160px] mx-auto">
+          <h1 className="   text-gray-600/50 xl:text-5xl max-sm:text-4xl lg:text-5xl 2xl:text-5xl md:text-4xl">
             PROJECT
           </h1>
-          <h1 className="font-extrabold xl:text-3xl max-sm:text-3xl lg:text-3xl 2xl:text-4xl md:text-3xl">
+          <h1 className="font-extrabold xl:text-3xl max-sm:text-3xl lg:text-3xl 2xl:text-3xl md:text-3xl">
             LOREM
           </h1>
-          <div className="xl:mt-10 xl:ml-10 md:ml-5 md:mt-5 2xl:ml-[130px] 2xl:mt-[80px] max-sm:hidden">
-            <FaArrowRight className="xl:ml-14 xl:mt-5 xl:size-7 md:size-5 md:ml-14 md:mt-3 2xl:size-12  2xl:ml-20 text-black/60" />
-            <FaArrowLeft className="xl:-mt-7 xl:size-7 md:size-5 md:-mt-5 2xl:size-12 2xl:-ml-10 2xl:-mt-11 text-black/60" />
+          <div className="xl:mt-10 xl:ml-10 md:ml-5 md:mt-5 2xl:ml-10 2xl:mt-10 max-sm:hidden">
+            <FaArrowRight className="xl:ml-14 xl:mt-5 xl:size-7 md:size-5 md:ml-14 md:mt-3 2xl:size-7  2xl:ml-14 text-black/60" />
+            <FaArrowLeft className="xl:-mt-7 xl:size-7 md:size-5 md:-mt-5 2xl:size-7 2xl:-ml-1 2xl:-mt-7 text-black/60" />
           </div>
         </div>
         <div>
