@@ -21,7 +21,7 @@ const Sample = () => {
               <img
                 src={Simg1}
                 alt=""
-                className=" md:w-[100px] md:mt-5 xl:w-[100px] 2xl:w-[100px] lg:w-[90px]  max-sm:w-[200px] max-sm:mt-5 lg:ml-10 lg:mt-5 max-sm:ml-16 max-sm:mx-auto"
+                className=" md:w-[100px] md:mt-5 desktop:w-[200px] xl:w-[100px] 2xl:w-[100px] lg:w-[90px]  max-sm:w-[200px] max-sm:mt-5 lg:ml-10 lg:mt-5 max-sm:ml-16 max-sm:mx-auto"
               />
             </div>
             <div className="lg:ml-[800px] max-sm:hidden  items-center">
@@ -29,7 +29,7 @@ const Sample = () => {
                 {Links.map((link) => (
                   <li
                     key={link.name}
-                    className={`my-2 max-sm:text-[6px] md:text-[13px] 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8  text-black`}
+                    className={`my-2 max-sm:text-[6px] md:text-[13px] desktop:text-4xl 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8 desktop:ml-28  text-black`}
                   >
                     {link.name}
                   </li>

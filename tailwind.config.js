@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         My1: ["Roboto", "sans-serif"],
       },
+      screens: {
+        desktop: "2560px",
+      },
     },
   },
   plugins: [],
