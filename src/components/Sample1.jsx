@@ -91,6 +91,42 @@ const Sample1 = () => {
           </h1>
         </div>
       </div>
+      {/* part 3 ahm paa  */}
+      <div className="xl:py-12 max-sm:py-5 max-sm:mx-auto max-sm:max-w-[300px] max-sm:px-4">
+        <h1 className="xl:text-6xl max-sm:text-3xl font-My1 text-gray-600/65 text-center">
+          Main Focus/Mission Statement
+        </h1>
+        <div className="grid grid-cols-2 max-sm:grid-cols-1 xl:py-2 xl:px-5">
+          <div className="xl:ml-[150px]">
+            <h1 className="xl:text-[200px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-bold text-black/10  ">
+              1
+              <span className="wide:hidden md:hidden lg:hidden xl:hidden 2xl:hidden desktop:hidden max-sm:-ml-4 font-medium text-7xl">
+                ......!!
+              </span>
+            </h1>
+            <h1 className="xl:ml-[120px] xl:mt-[-210px] xl:w-[350px] max-sm:text-xs max-sm:text-center max-sm:-mt-6 ">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              repellat consequuntur impedit non facilis aspernatur, minima vitae
+              expedita voluptatem. Sed velit similique ex modi neque perferendis
+              quasi placeat corrupti architecto.
+            </h1>
+          </div>
+          <div className="xl:ml-[50px] max-sm:-mt-4">
+            <h1 className="xl:text-[200px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-medium text-black/10  ">
+              2
+              <span className="wide:hidden md:hidden lg:hidden xl:hidden 2xl:hidden desktop:hidden max-sm:-ml-2 font-medium text-7xl">
+                ......!!
+              </span>
+            </h1>
+            <h1 className="xl:ml-[120px] xl:mt-[-210px] xl:w-[350px] max-sm:text-xs max-sm:text-center max-sm:-mt-6 ">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              repellat consequuntur impedit non facilis aspernatur, minima vitae
+              expedita voluptatem. Sed velit similique ex modi neque perferendis
+              quasi placeat corrupti architecto.
+            </h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
