@@ -22,7 +22,7 @@ const Sample1 = () => {
           </div>
         </div>
         <div>
-          <div className="absolute xl:-ml-[90px] lg:-ml-[110px] 2xl:-ml-[400px] md:-ml-[100px] max-sm:mt-[100px] max-sm:mx-auto max-sm:px-2 max-sm:ml-[-155px] ">
+          <div className="absolute xl:-ml-[90px] lg:-ml-[110px] 2xl:-ml-[90px] md:-ml-[100px] max-sm:mt-[100px] max-sm:mx-auto max-sm:px-2 max-sm:ml-[-155px] ">
             <img
               src={Simg2}
               alt=""
