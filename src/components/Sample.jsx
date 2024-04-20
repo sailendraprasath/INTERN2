@@ -29,7 +29,7 @@ const Sample = () => {
                 {Links.map((link) => (
                   <li
                     key={link.name}
-                    className={`my-2 max-sm:text-[6px] md:text-[13px] 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8 2xl:ml-24 text-black`}
+                    className={`my-2 max-sm:text-[6px] md:text-[13px] 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8  text-black`}
                   >
                     {link.name}
                   </li>
