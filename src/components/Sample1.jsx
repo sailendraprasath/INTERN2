@@ -57,7 +57,7 @@ const Sample1 = () => {
           />
         </div>
         <div className="max-sm:hidden desktop:ml-[700px]">
-          <h1 className="lg:text-5xl desktop:text-8xl lg:ml-[180px] md:text-4xl md:ml-[120px] xl:text-6xl xl:ml-24 2xl:text-6xl 2xl:ml-2 text-gray-600/85  font-semibold">
+          <h1 className="lg:text-5xl desktop:text-8xl desktop:ml-[200px] lg:ml-[180px] md:text-4xl md:ml-[120px] xl:text-6xl xl:ml-24 2xl:text-6xl 2xl:ml-2 text-gray-600/85  font-semibold">
             ABOUT...!!
           </h1>
           <h1 className="lg:w-[400px] desktop:text-6xl desktop:w-[1100px] desktop:ml-[-100px] lg:py-[30px] text-black/85  lg:ml-[80px] md:w-[300px] md:py-[30px] md:ml-[80px] xl:w-[500px] 2xl:w-[500px] 2xl:-ml-1 xl:-ml-1  2xl:py-[30px] 2xl:mt-[20px] xl:mt-[20px] xl:py-[30px] xl:text-black/65 font-My1 md:text-sm lg:text-xl xl:text-2xl 2xl:text-2xl">
@@ -65,6 +65,10 @@ const Sample1 = () => {
             accusantium dolor, perspiciatis maxime possimus quod, consectetur,
             ea quo iure error debitis. Tempora iste, delectus ullam praesentium
             reprehenderit neque excepturi! Enim.
+          </h1>
+          <h1 className="bg-gray-600/20 text-black/75 lg:px-2 desktop:w-[380px] desktop:px-4 desktop:py-4 xl:w-[130px] xl:px-2 xl:py-2 xl:pb-3 xl:ml-[150px] xl:rounded-full md:w-[130px] md:py-2 md:px-2 md:pb-3 md:rounded-full lg:text-xl lg:ml-[80px] md:ml-[80px] md:text-xl xl:text-xl 2xl:text-xl desktop:text-6xl desktop:ml-[-100px] desktop:mt-[100px] ">
+            ReadMore{" "}
+            <FaArrowRight className="xl:ml-[100px]  lg:size-4  lg:ml-[100px] lg:mt-[-18px] md:size-4 md:ml-[100px] md:mt-[-19px] desktop:size-12 xl:mt-[-20px] 2xl:ml-[100px] 2xl:mt-[-20px] desktop:ml-[300px] desktop:mt-[-45px]" />
           </h1>
         </div>
         <div className="xl:hidden lg:hidden md:hidden 2xl:hidden max-sm:max-w-[300px] text-gray-600/75 text-xl font-bold max-sm:ml-[100px] mx-auto">
@@ -80,6 +84,10 @@ const Sample1 = () => {
             molestiae hic minima officiis magni quidem provident, error
             aspernatur inventore animi quibusdam exercitationem dicta delectus
             enim quos totam eligendi quaerat velit.
+          </h1>
+          <h1 className="max-sm:text-xl max-sm:ml-[70px] max-sm:mt-[30px] text-black/75 max-sm:pb-2 max-sm:bg-gray-600/20 max-sm:px-2 max-sm:py-1 max-sm:rounded-full max-sm:w-[140px]">
+            <span className="ml-2 -mt-3">ReadMore</span>{" "}
+            <FaArrowRight className="max-sm:ml-[105px] max-sm:mt-[-20px] max-sm:size-4" />{" "}
           </h1>
         </div>
       </div>
