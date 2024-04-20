@@ -14,22 +14,22 @@ const Sample = () => {
   ];
   return (
     <>
-      <div className=" max-sm:max-w-[300px]  mx-auto flex justify-between items-center  table-fixed bg-myfont3 cursor-default select-none">
+      <div className=" max-sm:max-w-[300px]  wide:mx-auto   mx-auto flex justify-between items-center  table-fixed bg-myfont3 cursor-default select-none">
         <div className="flex items-center  max-sm:w-full lg:w-full ">
           <div className="flex flex-row  items-center  px-8 lg:pt-5">
             <div>
               <img
                 src={Simg1}
                 alt=""
-                className=" md:w-[100px] md:mt-5 desktop:w-[300px] xl:w-[100px] 2xl:w-[100px] lg:w-[90px]  max-sm:w-[200px] max-sm:mt-5 lg:ml-10 lg:mt-5 max-sm:ml-16 max-sm:mx-auto"
+                className=" md:w-[100px] wide:w-[60px] wide:mt-[10px] md:mt-5 desktop:w-[300px] xl:w-[100px] 2xl:w-[100px] lg:w-[90px]  max-sm:w-[200px] max-sm:mt-5 lg:ml-10 lg:mt-5 max-sm:ml-16 max-sm:mx-auto"
               />
             </div>
             <div className="lg:ml-[800px] max-sm:hidden  items-center">
-              <ul className="flex xl:-ml-[400px] md:ml-[110px] lg:-ml-[600px] ">
+              <ul className="flex xl:-ml-[400px] md:ml-[110px] lg:-ml-[600px] wide:ml-[80px] ">
                 {Links.map((link) => (
                   <li
                     key={link.name}
-                    className={`my-2 max-sm:text-[6px] md:text-[13px] desktop:text-4xl 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8 desktop:ml-28  text-black`}
+                    className={`my-2 max-sm:text-[6px] wide:text-[10px] wide:ml-[20px] md:text-[13px] desktop:text-4xl 2xl:text-[14px] md:mt-[20px] font-My1 lg:text-[13px] xl:text-[14px] ml-8 desktop:ml-28  text-black`}
                   >
                     {link.name}
                   </li>
@@ -62,7 +62,7 @@ const Sample = () => {
           {/* mobile menu  */}
           <div
             onClick={() => SetNav(!nav)}
-            className="flex items-center lg:hidden md:hidden px-4"
+            className="flex items-center wide:hidden lg:hidden md:hidden px-4"
           >
             <div className="cursor-pointer duration-700 mx-auto ml-16 rotate-180 scale-90 transition hover:scale-125 hover:-rotate-180  hover:duration-300">
               <IoMdMenu size={30} />

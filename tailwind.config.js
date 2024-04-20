@@ -8,6 +8,7 @@ export default {
       },
       screens: {
         desktop: "2560px",
+        wide: "640px",
       },
     },
   },
