@@ -13,7 +13,7 @@ const Sample1 = () => {
           <h1 className="   text-gray-600/50 xl:text-5xl max-sm:text-4xl lg:text-5xl 2xl:text-9xl md:text-4xl">
             PROJECT
           </h1>
-          <h1 className="font-extrabold xl:text-3xl max-sm:text-3xl lg:text-3xl 2xl:text-8xl md:text-3xl">
+          <h1 className="font-extrabold xl:text-3xl max-sm:text-3xl lg:text-3xl 2xl:text-4xl md:text-3xl">
             LOREM
           </h1>
           <div className="xl:mt-10 xl:ml-10 md:ml-5 md:mt-5 2xl:ml-[130px] 2xl:mt-[80px] max-sm:hidden">
