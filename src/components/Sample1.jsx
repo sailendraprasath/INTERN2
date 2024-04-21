@@ -3,6 +3,12 @@ import Simg2 from "../assets/Simg2.png";
 import Simg3 from "../assets/Simg3.png";
 import Simg4 from "../assets/Simg4.png";
 import Simg5 from "../assets/Simg5.png";
+import Simg6 from "../assets/Simg6.png";
+import Simg7 from "../assets/Simg7.png";
+import Simg8 from "../assets/Simg8.png";
+import Simg9 from "../assets/Simg9.png";
+import Simg10 from "../assets/Simg10.png";
+
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Sample1 = () => {
@@ -26,19 +32,19 @@ const Sample1 = () => {
             <img
               src={Simg2}
               alt=""
-              className="xl:w-[550px] wide:w-[300px] desktop:w-[1400px] 2xl:w-[550px] max-sm:w-[300px]"
+              className="xl:w-[550px] lg:w-[450px] wide:w-[300px] md:w-[400px] desktop:w-[1400px] 2xl:w-[550px] max-sm:w-[300px]"
             />
           </div>
-          <div className="relative wide:w-[110px] wide:px-2 wide:py-2 wide:mt-[295px] wide:ml-[-60px] desktop:ml-[99px] desktop:mt-[1404px] desktop:w-[380px] desktop:p-5 max-sm:mt-[385px] max-sm:ml-[-147px] max-sm:w-[150px]  xl:mt-[556px] md:mt-[288px] md:-ml-[100px] 2xl:mt-[556px] lg:mt-[367px] bg-white 2xl:w-[150px] md:w-[130px] xl:w-[150px] lg:w-[160px] lg:p-3 max-sm:p-3 xl:p-3 md:p-3 2xl:p-3   lg:-ml-[112px] xl:-ml-[90px] 2xl:-ml-[90px]">
-            <h1 className="wide:text-xs desktop:text-5xl 2xl:font-thin md:font-thin max-sm:font-thin">
+          <div className="relative wide:w-[110px] wide:px-2 wide:py-2 wide:mt-[295px] wide:ml-[-60px] md:px-0  desktop:ml-[99px] desktop:mt-[1170px] desktop:w-[380px] desktop:p-5 max-sm:mt-[385px] max-sm:ml-[-147px] max-sm:w-[150px]  xl:mt-[546px] md:mt-[380px] md:-ml-[100px] 2xl:mt-[556px] lg:mt-[440px] bg-white 2xl:w-[150px] md:w-[130px] xl:w-[150px] lg:w-[160px] lg:p-3 max-sm:p-3 xl:p-3 md:p-3 2xl:p-3   lg:-ml-[112px] xl:-ml-[90px] 2xl:-ml-[90px]">
+            <h1 className="wide:text-xs md:text-lg desktop:text-5xl lg:text-lg 2xl:font-thin md:font-thin max-sm:font-thin">
               View Project
             </h1>
-            <FaArrowRight className="desktop:size-14 desktop:ml-[280px] desktop:mt-[-40px]  2xl:-mt-[16px] max-sm:ml-[100px] max-sm:-mt-[20px] xl:ml-28  xl:-mt-[16px] md:ml-[100px] md:mt-[-18px] wide:ml-[80px] wide:mt-[-12px] wide:size-3 lg:ml-28 lg:-mt-[17px]" />
+            <FaArrowRight className="desktop:size-14 desktop:ml-[280px] desktop:mt-[-40px]  2xl:-mt-[16px] max-sm:ml-[100px] max-sm:-mt-[20px] xl:ml-28  xl:-mt-[18px]  md:ml-[100px] md:mt-[-18px] wide:ml-[80px] wide:mt-[-12px] md:size-4 wide:size-3 lg:ml-28 lg:-mt-[17px]" />
           </div>
         </div>
       </div>
       {/* about mattum ahmm paa  */}
-      <div className="desktop:mt-[200px] wide:px-2 wide:mx-auto wide:mt-[50px] wide:max-w-[640px] grid grid-cols-2 max-sm:max-w-[300px] max-sm:p-[20px] max-sm:py-[50px] max-sm:mx-auto xl:max-w-[1440px] md:max-w-[768px] md:p-[20px] md:py-[40px] lg:p-[20px] lg:py-[80px] xl:p-[40px] xl:ml-[200px] 2xl:ml-[200px] 2xl:max-w-[1536px]   lg:max-w-[1024px]">
+      <div className="desktop:mt-[200px] wide:px-2 wide:mx-auto wide:mt-[50px] wide:max-w-[640px] grid grid-cols-2 max-sm:max-w-[300px] max-sm:p-[20px] max-sm:py-[50px] max-sm:mx-auto xl:max-w-[1440px] md:max-w-[768px] md:p-[20px] md:py-[40px] lg:p-[20px] lg:py-[10px] xl:p-[40px] xl:ml-[200px] 2xl:ml-[200px] 2xl:max-w-[1536px]   lg:max-w-[1024px]">
         <div>
           <img
             src={Simg3}
@@ -57,7 +63,7 @@ const Sample1 = () => {
           />
         </div>
         <div className="max-sm:hidden desktop:ml-[700px]">
-          <h1 className="lg:text-5xl desktop:text-8xl desktop:ml-[200px] lg:ml-[180px] md:text-4xl md:ml-[120px] wide:text-4xl wide:ml-24 xl:text-6xl xl:ml-24 2xl:text-6xl 2xl:ml-2 text-gray-600/85  font-semibold">
+          <h1 className="lg:text-5xl desktop:text-8xl desktop:ml-[200px] lg:ml-[180px] md:text-4xl md:ml-[120px] wide:text-4xl wide:ml-24 xl:text-6xl xl:ml-24 2xl:text-6xl 2xl:ml-2 text-gray-600/35  font-semibold">
             ABOUT...!!
           </h1>
           <h1 className="lg:w-[400px] wide:text-xs  desktop:text-6xl desktop:w-[1100px] desktop:ml-[-100px] lg:py-[30px] text-black/85  lg:ml-[80px] md:w-[300px] md:py-[30px] md:ml-[80px] wide:w-[250px] wide:ml-[30px] wide:pt-4 xl:w-[500px] 2xl:w-[500px] 2xl:-ml-1 xl:-ml-1  2xl:py-[30px] 2xl:mt-[20px] xl:mt-[20px] xl:py-[30px] xl:text-black/65 font-My1 md:text-sm lg:text-xl xl:text-2xl 2xl:text-2xl">
@@ -92,19 +98,22 @@ const Sample1 = () => {
         </div>
       </div>
       {/* part 3 ahm paa  */}
-      <div className="xl:py-12 max-sm:py-5 max-sm:mx-auto max-sm:max-w-[300px] max-sm:px-4">
-        <h1 className="xl:text-6xl max-sm:text-3xl font-My1 text-gray-600/65 text-center">
+      <div className="xl:py-12 max-sm:py-0 max-sm:mx-auto max-sm:max-w-[300px] max-sm:px-4">
+        <h1 className="xl:text-6xl desktop:text-8xl desktop:ml-[200px] 2xl:text-6xl lg:text-5xl wide:text-2xl wide:py-6 max-sm:text-3xl font-My1 max-sm:mt-[-30px] text-gray-600/35 text-center">
           Main Focus/Mission Statement
         </h1>
-        <div className="grid grid-cols-2 max-sm:grid-cols-1 xl:py-2 xl:px-5">
-          <div className="xl:ml-[150px]">
-            <h1 className="xl:text-[200px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-bold text-black/10  ">
+        <div className="grid grid-cols-2 max-sm:grid-cols-1 wide:ml-[40px] wide:mt-[-20px] xl:py-2 xl:px-5">
+          <div className="xl:ml-[150px] desktop:ml-[200px] lg:ml-[100px] max-sm:mt-[-30px]">
+            <h1 className="desktop:text-[400px] desktop:mt-[-100px] wide:text-[105px]  xl:text-[200px] lg:text-[150px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-bold text-black/10  ">
               1
               <span className="wide:hidden md:hidden lg:hidden xl:hidden 2xl:hidden desktop:hidden max-sm:-ml-4 font-medium text-7xl">
                 ......!!
               </span>
             </h1>
-            <h1 className="xl:ml-[120px] xl:mt-[-210px] xl:w-[350px] max-sm:text-xs max-sm:text-center max-sm:-mt-6 ">
+            <h1
+              className=" desktop:text-4xl desktop:text-center desktop:w-[700px] desktop:ml-[200px] desktop:mt-[-390px] xl:ml-[120px]  xl:mt-[-210px] xl:w-[350px] xl:text-base xl:text-start 2xl:ml-[120px] lg:mt-[-160px] lg:ml-[80px]  2xl:mt-[-230px] 2xl:w-[350px] 2xl:text-base  wide:text-xs wide:w-[200px] wide:ml-[60px] wide:mt-[-125px]
+              wide:text-center max-sm:text-xs max-sm:text-center max-sm:-mt-6 "
+            >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
               repellat consequuntur impedit non facilis aspernatur, minima vitae
               expedita voluptatem. Sed velit similique ex modi neque perferendis
@@ -112,18 +121,68 @@ const Sample1 = () => {
             </h1>
           </div>
           <div className="xl:ml-[50px] max-sm:-mt-4">
-            <h1 className="xl:text-[200px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-medium text-black/10  ">
+            <h1 className="desktop:text-[400px] desktop:mt-[-100px] wide:text-[105px] xl:text-[200px] lg:text-[150px] max-sm:ml-3 max-sm:text-[150px] max-sm:text-black/35 font-medium text-black/10  ">
               2
               <span className="wide:hidden md:hidden lg:hidden xl:hidden 2xl:hidden desktop:hidden max-sm:-ml-2 font-medium text-7xl">
                 ......!!
               </span>
             </h1>
-            <h1 className="xl:ml-[120px] xl:mt-[-210px] xl:w-[350px] max-sm:text-xs max-sm:text-center max-sm:-mt-6 ">
+            <h1 className="desktop:text-4xl desktop:text-center desktop:w-[700px] desktop:ml-[200px] desktop:mt-[-390px] lg:mt-[-160px] lg:ml-[80px]  wide:text-xs wide:w-[200px] wide:ml-[60px] wide:mt-[-125px] wide:text-center xl:ml-[120px] xl:mt-[-210px] xl:w-[350px] xl:text-base xl:text-start 2xl:ml-[120px] 2xl:mt-[-210px] 2xl:w-[350px] 2xl:text-base 2xl:text-start max-sm:text-xs max-sm:text-center max-sm:-mt-6 ">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
               repellat consequuntur impedit non facilis aspernatur, minima vitae
               expedita voluptatem. Sed velit similique ex modi neque perferendis
               quasi placeat corrupti architecto.
             </h1>
+          </div>
+        </div>
+      </div>
+      {/* 4th part ahm paa  */}
+      <div className="max-sm:max-w-[300px] mx-auto">
+        <div>
+          <h1 className="max-sm:text-4xl max-sm:text-center max-sm:py-10 text-gray-600/55 ">
+            Our Projects
+          </h1>
+          <div className="max-sm:max-w-[300px] mx-auto">
+            <div className="grid max-sm:grid-cols-2 max-sm:gap-2 ">
+              <img src={Simg6} alt="" className="max-sm:hidden" />
+              <img src={Simg7} alt="" className="max-sm:w-[150px]" />
+              <img
+                src={Simg9}
+                alt=""
+                className="max-sm:w-[150px] max-sm:h-[110px]"
+              />
+              <img
+                src={Simg8}
+                alt=""
+                className="max-sm:w-[150px] max-sm:-mt-9"
+              />
+              <img src={Simg10} alt="" className="max-sm:w-[150px] " />
+            </div>
+            <div className="max-sm:pb-24 max-sm:pt-3 wide:hidden md:hidden lg:hidden xl:hidden 2xl:hidden desktop:hidden">
+              <img
+                src={Simg6}
+                alt=""
+                className="max-sm:absolute max-sm:w-[300px]"
+              />
+              <img
+                src={Simg10}
+                alt=""
+                className="max-sm:relative max-sm:w-[300px] max-sm:h-[136px] max-sm:opacity-25"
+              />
+              <h1 className="max-sm:text-2xl text-white font-bold max-sm:relative  max-sm:mt-[-120px] max-sm:text-center">
+                Sample Projects
+              </h1>
+              <h1 className="max-sm:text-base max-sm:relative  text-white  max-sm:mt-[-1px] max-sm:text-center">
+                View More{" "}
+                <FaArrowRight className="max-sm:ml-[195px] max-sm:mt-[-16px] max-sm:size-3" />
+              </h1>
+              <div className="bg-gray-900 w-[180px] ml-14 h-[50px] rounded-tr-3xl rounded-bl-3xl relative ">
+                <h1 className="mt-[100px] text-center pt-3 text-white font-thin">
+                  All Projects{" "}
+                  <FaArrowRight className=" text-white ml-[150px] size-3 mt-[-15px] " />
+                </h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
